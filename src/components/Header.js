@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, NavDropdown, Nav, Form, FormControl, Button } from 'react-bootstrap';
+// import { Navbar, NavDropdown, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 export class Header extends Component {
   render() {
@@ -20,19 +20,18 @@ export class Header extends Component {
             <a class="nav-link" href="/contact">Contact Us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href=" #" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Action
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/register">Register</a>
-              <a class="dropdown-item" href="#">Another action</a>
+      
+              <a class="dropdown-item" href="/login">Login</a>
+              <a class="dropdown-item" href="/signup">SignUp</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="/register">Register Form</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+          
         </ul>
         
       </div>
